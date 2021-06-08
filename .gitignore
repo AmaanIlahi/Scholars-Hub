@@ -1,2 +1,4 @@
 igdtuProjectDjangoBackend/myenv
 node_modules/
+venv/
+.idea/
