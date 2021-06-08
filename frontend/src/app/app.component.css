@@ -1,0 +1,238 @@
+.body{
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.textCenter{
+    text-align: center;
+}
+ng-select{
+    width: 100%;
+}
+
+.nav-temp{
+    width: 100%;
+    height: 48px;
+    background-color: #b447cc;
+    margin-bottom: 24px;
+}
+
+.nav-temp div{
+    width: 100%;
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: whitesmoke;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container{
+      max-width: 90%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .container{
+      max-width: 90%;
+    }
+}
+
+.dropdownBtns{
+    margin-top: 24px;
+    width: 100%;
+}
+
+.dropdownBtns .d-inline-block{
+    margin-right: 24px;
+    margin-bottom: 16px;
+}
+
+.dropdownBtns .d-inline-block .btn-outline-primary{
+    background: #e4e2e0 ;
+    color: #2d2d2d;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.dropdownBtns .d-inline-block .btn-outline-primary:hover{
+    background-color: #d9d9d9;
+}
+
+.dropdown-toggle::after{
+    margin-left: 16px;
+}
+
+.dropdown-menu{
+    padding: 0;
+}
+.dropdown-menu button{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 16px;
+}
+
+/************************************************ Internships **********************************************/
+.internshipHeading{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+
+.internshipBox{
+    background: #fff;
+    padding: 23px;
+    margin-bottom: 24px;
+    border: 1px solid #EEE;
+    box-shadow: 3px 3px 12px rgb(0 0 0 / 8%);
+    border-radius: 6px;
+    max-width: 700px;
+    /* width: 570px; */
+}
+
+@media only screen and (max-width: 1200px) {
+    .internshipBox{
+      margin: auto;
+      margin-bottom: 30px;
+    }
+  }
+
+.roleName{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #484848;
+    letter-spacing: 0.5px;   
+}
+
+.companyName{
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #8A8A8A;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+
+.locationList{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #484848;
+    letter-spacing: 0.5px;
+    margin-bottom: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+.internInfo{
+    /* margin-right: 40px; */
+}
+
+.internInfo .internItemDetailsBottomRow p{
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.internInfo .internItemDetailsBottomRow{
+    margin-top: 6px;
+}
+
+.internItemDetailsHead{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #8A8A8A;
+    display: flex;
+    font-weight: 500;
+}
+
+.bi{
+    margin-right: 5px;
+}
+
+.applyBtn{
+    color: #f15ba6;
+    border-color: #f15ba6;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100px;
+
+}
+
+.applyBtn:hover{
+    color: white;
+    background: #f15ba6;
+}
+
+.applyBtn:active{
+    color: white;
+    background: #f15ba6;
+}
+
+.applyBtn:focus{
+    box-shadow: 0 0 0 0.2rem rgb(241 91 16 / 50%);
+}
+
+.skills-box{
+    margin: 0;
+    width: 100%;
+
+}
+.skill-box-item{
+    background: #e4e2e0;
+    color: #2d2d2d;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.content-foot{
+    /* height: 36px; */
+    margin-top: 6px;
+}
+
+.skill-select{
+    width: 80%;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.skill-select-internal{
+    width: 100%;
+}
+.skill-select-internal label h4{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.skill-select-internal input{
+    margin-left: 12px;
+    margin-right: 16px;
+    width: 70%;
+    font-size: 14px;
+    /* height: 32px; */
+
+        padding: 9px 20px;
+        /* margin: 8px 0; */
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+}
